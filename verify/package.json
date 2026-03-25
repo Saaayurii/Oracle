@@ -1,0 +1,16 @@
+{
+  "name": "oracle-labs-verify",
+  "version": "1.0.0",
+  "description": "Verification script for Oracle labs",
+  "main": "verify.js",
+  "scripts": {
+    "start": "node verify.js",
+    "verify": "node verify.js",
+    "verify:lab2": "node verify.js --lab 2",
+    "verify:lab3": "node verify.js --lab 3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "oracledb": "^6.7.0"
+  }
+}
